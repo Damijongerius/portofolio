@@ -183,7 +183,7 @@ html {
     color: white;
     font-size: 75px;
     width: 100%;
-    margin: 30px auto;
+    margin: 8vh auto;
     text-align: center;
   }
   
@@ -213,7 +213,7 @@ html {
   }
   
   .text {
-    color: #654321;
+    color: #ffd9a3;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -463,27 +463,69 @@ html {
   }
   
   @media (min-width: 480px) and (max-width: 767px) {
-    .box {
-      width: 40%;
-    }
     .popup {
       width: 50%;
     }
   }
 
+  @media (max-width: 480px) {
+    .box {
+      flex-direction: column;
+    }
+  }
+
 #about{
-  height: 100vh;
+  min-height: 100vh;
   background-color: #101010;
 }
-
-
-
-.footer_item{
-  background-color: linear-gradient(rgb(61, 61, 61), rgb(200,200,200));
+#pagina4Tekst{
+  font-family:sans-serif;
 }
+
 
 .footer-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  border: solid black 10px;
-}
+  border: solid #20180a 5px;
+  color: #ffd9a3;
+  }
+  #footer h1{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+  }
+  #footer p{
+    font-family: sans-serif;
+    font-size: 0.8vw;
+  }
+  .container2-left{
+    width: 50%;
+  }
+  .container2-right{
+    width: 50%;
+  }
+  #fotoRoc{
+    width: 20vw;
+    height: 15vh;
+    position: relative;
+    right: -10%;
+  }
+  
+  #werkEen{
+    position: relative;
+    left: 10%;
+  }
+  #opleidingT{
+    font-family: sans-serif;
+  }
+  #horeca{
+    font-family: sans-serif;
+  }
+  #horeca2{
+    font-family: sans-serif;
+  }
+  #opledingE{
+    position: relative;
+    left: 10%;
+    width: 50%;
+    top: 20px;
+  }
